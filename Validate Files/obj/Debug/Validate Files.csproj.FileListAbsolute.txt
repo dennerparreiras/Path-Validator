@@ -1,0 +1,7 @@
+c:\users\daleixo\source\repos\Validate_Files\Validate Files\bin\Debug\Validate Files.exe.config
+c:\users\daleixo\source\repos\Validate_Files\Validate Files\bin\Debug\Validate Files.exe
+c:\users\daleixo\source\repos\Validate_Files\Validate Files\bin\Debug\Validate Files.pdb
+c:\users\daleixo\source\repos\Validate_Files\Validate Files\obj\Debug\Validate Files.csprojResolveAssemblyReference.cache
+c:\users\daleixo\source\repos\Validate_Files\Validate Files\obj\Debug\Validate Files.csproj.CoreCompileInputs.cache
+c:\users\daleixo\source\repos\Validate_Files\Validate Files\obj\Debug\Validate Files.exe
+c:\users\daleixo\source\repos\Validate_Files\Validate Files\obj\Debug\Validate Files.pdb
