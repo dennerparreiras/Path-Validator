@@ -1,0 +1,10 @@
+B:\Denner Backup (User)\Desktop\Path-Validator\Path-Validator\bin\Debug\Path-Validator.exe.config
+B:\Denner Backup (User)\Desktop\Path-Validator\Path-Validator\bin\Debug\Path-Validator.exe
+B:\Denner Backup (User)\Desktop\Path-Validator\Path-Validator\bin\Debug\Path-Validator.pdb
+B:\Denner Backup (User)\Desktop\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csprojResolveAssemblyReference.cache
+B:\Denner Backup (User)\Desktop\Path-Validator\Path-Validator\obj\Debug\Path_Validator.MainScreen.resources
+B:\Denner Backup (User)\Desktop\Path-Validator\Path-Validator\obj\Debug\Path_Validator.Properties.Resources.resources
+B:\Denner Backup (User)\Desktop\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csproj.GenerateResource.Cache
+B:\Denner Backup (User)\Desktop\Path-Validator\Path-Validator\obj\Debug\Path-Validator.exe
+B:\Denner Backup (User)\Desktop\Path-Validator\Path-Validator\obj\Debug\Path-Validator.pdb
+B:\Denner Backup (User)\Desktop\Path-Validator\Path-Validator\obj\Debug\Path_Validator.SplashScreen.resources
