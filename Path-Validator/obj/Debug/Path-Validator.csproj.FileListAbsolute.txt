@@ -8,3 +8,14 @@ B:\Denner Backup (User)\Desktop\Path-Validator\Path-Validator\obj\Debug\Path-Val
 B:\Denner Backup (User)\Desktop\Path-Validator\Path-Validator\obj\Debug\Path-Validator.exe
 B:\Denner Backup (User)\Desktop\Path-Validator\Path-Validator\obj\Debug\Path-Validator.pdb
 B:\Denner Backup (User)\Desktop\Path-Validator\Path-Validator\obj\Debug\Path_Validator.SplashScreen.resources
+D:\daleixo\workspace\Path-Validator\Path-Validator\bin\Debug\Path-Validator.exe.config
+D:\daleixo\workspace\Path-Validator\Path-Validator\bin\Debug\Path-Validator.exe
+D:\daleixo\workspace\Path-Validator\Path-Validator\bin\Debug\Path-Validator.pdb
+D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csprojResolveAssemblyReference.cache
+D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.MainScreen.resources
+D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.Properties.Resources.resources
+D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.SplashScreen.resources
+D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csproj.GenerateResource.Cache
+D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csproj.CoreCompileInputs.cache
+D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.exe
+D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.pdb

@@ -14,8 +14,11 @@ namespace Path_Validator
 {
     public partial class MainScreen : Form
     {
-        private const string path_OK_Files = @"results/OK_Files";
-        private const string path_ERROR_Files = @"results/Error_Files";
+        private const string path_OK_Files = @"\results\OK_Files";
+        private const string path_ERROR_Files = @"\results\Error_Files";
+
+        public string v_Name_OK;
+        public string v_Name_Err;
 
         private int ExecPiece = 0;
 
@@ -32,18 +35,32 @@ namespace Path_Validator
 
         private void RunButton_Click(object sender, EventArgs e)
         {
-            this.MainProgress.Value = 0;
-            ValidatePath(this.tb_Urls.Text, ((this.rb_Arquivo.Checked) ? Procedimento.Arquivo : Procedimento.WEB));
+            //try
+            //{
+                this.MainProgress.Value = 0;
+                ValidatePath(this.tb_Urls.Text, ((this.rb_Arquivo.Checked) ? Procedimento.Arquivo : Procedimento.WEB));
+            //}
+            //catch
+            //{
+            //    Error();
+            //}
         }
 
         private void OpenButton_Click(object sender, EventArgs e)
         {
-            OpenFileDialog v_OpenDialog = new OpenFileDialog();
-            v_OpenDialog.ShowDialog();
-
-            foreach (var item in File.ReadAllLines(v_OpenDialog.FileName))
+            try
             {
-                this.tb_Urls.Text += item + "\r\n";
+                OpenFileDialog v_OpenDialog = new OpenFileDialog();
+                v_OpenDialog.ShowDialog();
+
+                foreach (var item in File.ReadAllLines(v_OpenDialog.FileName))
+                {
+                    this.tb_Urls.Text += item + "\r\n";
+                }
+            }
+            catch
+            {
+                Error("Falha ao abrir arquivo!\r\nVerifique o arquivo selecionado e tente novamente.");
             }
         }
 
@@ -56,8 +73,14 @@ namespace Path_Validator
         {
             bool v_Success = false;
 
+            v_Name_OK = GenerateDateName(path_OK_Files);
+            v_Name_Err = GenerateDateName(path_ERROR_Files);
+
+            VerifyFileToSave(v_Name_OK);
+            VerifyFileToSave(v_Name_Err);
+
             string[] v_Lines = p_Path.Split(
-                new[] { Environment.NewLine },
+                new[] { "\r\n", "\r", "\n" },
                 StringSplitOptions.None
             );
 
@@ -85,7 +108,7 @@ namespace Path_Validator
 
                     if (Directory.Exists(v_url))
                     {
-                        using (StreamWriter v_ArquivosCertos = new StreamWriter(path_OK_Files, true))
+                        using (StreamWriter v_ArquivosCertos = new StreamWriter(v_Name_OK, true))
                         {
                             v_ArquivosCertos.WriteLine(v_url);
                             this.tb_Console.Text += ("[Directory] OK: " + v_url + "\r\n");
@@ -93,7 +116,7 @@ namespace Path_Validator
                     }
                     else
                     {
-                        using (StreamWriter v_ArquivosErrados = new StreamWriter(path_ERROR_Files, true))
+                        using (StreamWriter v_ArquivosErrados = new StreamWriter(v_Name_Err, true))
                         {
                             v_ArquivosErrados.WriteLine(v_url);
                             this.tb_Console.Text += ("[Directory] Not found/Error: " + v_url + "\r\n");
@@ -103,6 +126,7 @@ namespace Path_Validator
                 }
                 catch (Exception ex)
                 {
+                    throw new Exception("Falha ao executar o procedimento para validação de diretórios.");
                 }
             }
 
@@ -111,17 +135,16 @@ namespace Path_Validator
 
         private bool ValidateWEB(string[] p_Lines)
         {
-            string v_Name_OK = GenerateDateName(path_OK_Files);
-            string v_Name_Err = GenerateDateName(path_ERROR_Files);
-
             foreach (var v_url in p_Lines)
             {
                 HttpWebResponse response = null;
-                var request = (HttpWebRequest)WebRequest.Create(v_url);
-                request.Method = "HEAD";
 
                 try
                 {
+                    
+                    var request = (HttpWebRequest)WebRequest.Create(v_url);
+                    request.Method = "HEAD";
+
                     response = (HttpWebResponse)request.GetResponse();
 
                     using (StreamWriter v_ArquivosCertos = new StreamWriter(v_Name_OK, true))
@@ -154,7 +177,29 @@ namespace Path_Validator
         public string GenerateDateName(string p_Name)
         {
             DateTime v_Date = new DateTime();
-            return p_Name + v_Date.ToLongDateString() + ".txt";
+            return p_Name  + ("_" + v_Date.ToShortDateString() + "_" + v_Date.ToShortTimeString() + ".txt").ToString().Replace("/", "-");
+        }
+
+        public static void VerifyFileToSave(string p_FilePath)
+        {
+            if (File.Exists(p_FilePath))
+            {
+                File.Delete(p_FilePath);
+            }
+            else
+            {
+                File.Create(p_FilePath);
+            }
+        }
+
+        public static void Error(string p_ErrorMessage = "")
+        {
+            string v_ErrorMessage, v_ErrorTitle;
+
+            v_ErrorMessage = (!String.IsNullOrEmpty(p_ErrorMessage)) ? p_ErrorMessage : "Houve uma falha ao realizar o procedimento.\r\nFavor revisar as configurações de execução.";
+            v_ErrorTitle = "Falha durante execução do procedimento!";
+
+            MessageBox.Show(v_ErrorMessage, v_ErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 }

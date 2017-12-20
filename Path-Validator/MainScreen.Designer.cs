@@ -251,7 +251,8 @@
             // 
             // MainProgress
             // 
-            this.MainProgress.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.MainProgress.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.MainProgress.Location = new System.Drawing.Point(12, 418);
             this.MainProgress.Name = "MainProgress";
             this.MainProgress.Size = new System.Drawing.Size(652, 11);
