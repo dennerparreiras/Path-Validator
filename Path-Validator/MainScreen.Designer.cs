@@ -43,8 +43,6 @@
             this.OpenButton = new System.Windows.Forms.Button();
             this.tb_DiretorioPai = new System.Windows.Forms.TextBox();
             this.TitleLabel = new System.Windows.Forms.Label();
-            this.tb_Console = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.Logo = new System.Windows.Forms.PictureBox();
             this.LogoLabel = new System.Windows.Forms.Label();
             this.OpenFile = new System.Windows.Forms.OpenFileDialog();
@@ -67,13 +65,14 @@
             this.tb_Urls.Multiline = true;
             this.tb_Urls.Name = "tb_Urls";
             this.tb_Urls.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_Urls.Size = new System.Drawing.Size(376, 186);
+            this.tb_Urls.Size = new System.Drawing.Size(376, 393);
             this.tb_Urls.TabIndex = 1;
             // 
             // gb_Options
             // 
             this.gb_Options.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.gb_Options.BackColor = System.Drawing.Color.Transparent;
+            this.gb_Options.Controls.Add(this.MainProgress);
             this.gb_Options.Controls.Add(this.SelectDirectoryButton);
             this.gb_Options.Controls.Add(this.label1);
             this.gb_Options.Controls.Add(this.rb_Arquivo);
@@ -88,7 +87,7 @@
             this.gb_Options.ForeColor = System.Drawing.Color.White;
             this.gb_Options.Location = new System.Drawing.Point(394, 98);
             this.gb_Options.Name = "gb_Options";
-            this.gb_Options.Size = new System.Drawing.Size(291, 380);
+            this.gb_Options.Size = new System.Drawing.Size(291, 393);
             this.gb_Options.TabIndex = 2;
             this.gb_Options.TabStop = false;
             this.gb_Options.Text = "Configurações";
@@ -98,6 +97,7 @@
             this.SelectDirectoryButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SelectDirectoryButton.BackgroundImage = global::Path_Validator.Properties.Resources.if_folder_299060;
             this.SelectDirectoryButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SelectDirectoryButton.Enabled = false;
             this.SelectDirectoryButton.FlatAppearance.BorderSize = 0;
             this.SelectDirectoryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SelectDirectoryButton.ForeColor = System.Drawing.Color.Transparent;
@@ -107,6 +107,7 @@
             this.SelectDirectoryButton.TabIndex = 5;
             this.SelectDirectoryButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.SelectDirectoryButton.UseVisualStyleBackColor = true;
+            this.SelectDirectoryButton.Visible = false;
             this.SelectDirectoryButton.Click += new System.EventHandler(this.SelectDirectoryButton_Click);
             // 
             // label1
@@ -193,6 +194,7 @@
             this.SaveButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SaveButton.BackgroundImage = global::Path_Validator.Properties.Resources.if_floppy_285657;
             this.SaveButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SaveButton.Enabled = false;
             this.SaveButton.FlatAppearance.BorderSize = 0;
             this.SaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SaveButton.ForeColor = System.Drawing.Color.Transparent;
@@ -266,36 +268,6 @@
             this.TitleLabel.TabIndex = 4;
             this.TitleLabel.Text = "INPUT";
             // 
-            // tb_Console
-            // 
-            this.tb_Console.AcceptsReturn = true;
-            this.tb_Console.AccessibleRole = System.Windows.Forms.AccessibleRole.ScrollBar;
-            this.tb_Console.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb_Console.BackColor = System.Drawing.SystemColors.Desktop;
-            this.tb_Console.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_Console.ForeColor = System.Drawing.Color.White;
-            this.tb_Console.Location = new System.Drawing.Point(12, 348);
-            this.tb_Console.Multiline = true;
-            this.tb_Console.Name = "tb_Console";
-            this.tb_Console.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_Console.Size = new System.Drawing.Size(376, 130);
-            this.tb_Console.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(12, 304);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(154, 24);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "CONSOLE LOGS";
-            // 
             // Logo
             // 
             this.Logo.BackColor = System.Drawing.Color.Transparent;
@@ -329,9 +301,9 @@
             // 
             this.MainProgress.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.MainProgress.Location = new System.Drawing.Point(12, 331);
+            this.MainProgress.Location = new System.Drawing.Point(4, 377);
             this.MainProgress.Name = "MainProgress";
-            this.MainProgress.Size = new System.Drawing.Size(376, 11);
+            this.MainProgress.Size = new System.Drawing.Size(281, 10);
             this.MainProgress.TabIndex = 6;
             // 
             // MainScreen
@@ -341,19 +313,17 @@
             this.BackgroundImage = global::Path_Validator.Properties.Resources.abstract_wallpaper_images_5;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(697, 503);
-            this.Controls.Add(this.MainProgress);
             this.Controls.Add(this.Logo);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.LogoLabel);
             this.Controls.Add(this.TitleLabel);
             this.Controls.Add(this.gb_Options);
-            this.Controls.Add(this.tb_Console);
             this.Controls.Add(this.tb_Urls);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(705, 490);
             this.Name = "MainScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Path Validator by Denner Parreiras";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainScreen_FormClosing);
             this.gb_Options.ResumeLayout(false);
             this.gb_Options.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
@@ -372,8 +342,6 @@
         private System.Windows.Forms.RadioButton rb_WEB;
         private System.Windows.Forms.Button RunButton;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox tb_Console;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox Logo;
         private System.Windows.Forms.Label LogoLabel;
         private System.Windows.Forms.OpenFileDialog OpenFile;

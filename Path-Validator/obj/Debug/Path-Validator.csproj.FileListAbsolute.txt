@@ -20,3 +20,13 @@ D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.exe
 D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.pdb
 D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.NativeMethods.resources
 D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.MainScreen.resources
+B:\workspace\Path-Validator\Path-Validator\bin\Debug\Path-Validator.exe.config
+B:\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.exe
+B:\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.pdb
+B:\workspace\Path-Validator\Path-Validator\bin\Debug\Path-Validator.exe
+B:\workspace\Path-Validator\Path-Validator\bin\Debug\Path-Validator.pdb
+B:\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csprojResolveAssemblyReference.cache
+B:\workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.MainScreen.resources
+B:\workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.Properties.Resources.resources
+B:\workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.SplashScreen.resources
+B:\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csproj.GenerateResource.Cache

@@ -26,6 +26,26 @@ namespace Path_Validator
                 public const string OK = "OK";
                 public const string ERROR = "ERROR";
             }
+
+            public struct Console
+            {
+                public const string HEADER = @"
+###########################################################################################
+  _____                               _____                    _               
+ |  __ \                             |  __ \                  (_)              
+ | |  | | ___ _ __  _ __   ___ _ __  | |__) |_ _ _ __ _ __ ___ _ _ __ __ _ ___ 
+ | |  | |/ _ \ '_ \| '_ \ / _ \ '__| |  ___/ _` | '__| '__/ _ \ | '__/ _` / __|
+ | |__| |  __/ | | | | | |  __/ |    | |  | (_| | |  | | |  __/ | | | (_| \__ \
+ |_____/ \___|_| |_|_| |_|\___|_|_   |_|   \__,_|_|  |_|  \___|_|_|  \__,_|___/
+
+__________         __  .__      ____   ____      .__  .__    .___       __                
+\______   \_____ _/  |_|  |__   \   \ /   /____  |  | |__| __| _/____ _/  |_  ___________ 
+ |     ___/\__  \\   __\  |  \   \   Y   /\__  \ |  | |  |/ __ |\__  \\   __\/  _ \_  __ \
+ |    |     / __ \|  | |   Y  \   \     /  / __ \|  |_|  / /_/ | / __ \|  | (  <_> )  | \/
+ |____|    (____  /__| |___|  /    \___/  (____  /____/__\____ |(____  /__|  \____/|__|   
+                \/          \/                 \/             \/     \/                  
+###########################################################################################";
+            }
         }
 
         public struct GlobalVar
@@ -44,13 +64,18 @@ namespace Path_Validator
 
         public MainScreen()
         {
+            NativeMethods.AllocConsole();
+            Console.WriteLine(Constantes.Console.HEADER);
             InitializeComponent();
         }
 
         private void MainScreen_Load(object sender, EventArgs e)
         {
-            //NativeMethods.AllocConsole();
-            //Console.WriteLine("Debug Console");
+        }
+
+        private void MainScreen_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            NativeMethods.FreeConsole();
         }
 
         private void RunButton_Click(object sender, EventArgs e)
@@ -60,6 +85,7 @@ namespace Path_Validator
             {
                 Error();
             }
+            ProgressAdd(true);
         }
 
         private void OpenButton_Click(object sender, EventArgs e)
@@ -70,24 +96,30 @@ namespace Path_Validator
                 OpenFileDialog v_OpenDialog = new OpenFileDialog();
                 v_OpenDialog.ShowDialog();
 
-                foreach (var item in File.ReadAllLines(v_OpenDialog.FileName))
+                if (File.Exists(v_OpenDialog.FileName))
                 {
-                    v_URLs += item + "\r\n";
-                }
+                    foreach (var item in File.ReadAllLines(v_OpenDialog.FileName))
+                    {
+                        v_URLs += item + "\r\n";
+                    }
 
-                if (v_URLs.Length < Int32.MaxValue)
-                {
-                    this.tb_Urls.Text = v_URLs;
+                    if (v_URLs.Length < Int32.MaxValue)
+                    {
+                        this.tb_Urls.Text = v_URLs;
+                    }
+                    else
+                    {
+                        throw new Exception();
+                    }
                 }
                 else
                 {
-                    throw new Exception();
+                    Error("Arquivo de Paths: Verifique o arquivo selecionado e tente novamente.");
                 }
-
             }
             catch
             {
-                Error("Falha ao abrir arquivo!\r\nVerifique o arquivo selecionado e tente novamente.");
+                Error("Arquivo de Paths: Verifique o arquivo selecionado e tente novamente.");
             }
         }
 
@@ -137,8 +169,12 @@ namespace Path_Validator
 
         private bool ValidateFileDirectories(string[] p_Lines)
         {
+            ProgressDivisor(p_Lines.Length);
+
             foreach (var v_url in p_Lines)
             {
+                ProgressAdd();
+
                 try
                 {
                     if (Directory.Exists(v_url))
@@ -170,8 +206,11 @@ namespace Path_Validator
 
         private bool ValidateWEB(string[] p_Lines)
         {
+            ProgressDivisor(p_Lines.Length);
+
             foreach (var v_url in p_Lines)
             {
+                ProgressAdd();
                 HttpWebResponse response = null;
 
                 try
@@ -188,7 +227,7 @@ namespace Path_Validator
                         ConsoleLog("[WEB] OK: " + v_url + "\r\n");
                     }
                 }
-                catch (WebException ex)
+                catch /*(WebException ex)*/
                 {
                     /* A WebException will be thrown if the status of the response is not `200 OK` */
                     using (StreamWriter v_ArquivosErrados = new StreamWriter(GlobalVar.v_Name_Err, true))
@@ -211,12 +250,13 @@ namespace Path_Validator
 
         private bool WipeDirectories(string[] p_Lines)
         {
+            ProgressDivisor(p_Lines.Length);
+
             foreach (var v_url in p_Lines)
             {
-
+                ProgressAdd();
                 try
                 {
-
                     if (Directory.Exists(v_url))
                     {
                         using (StreamWriter v_ArquivosCertos = new StreamWriter(GlobalVar.v_Name_OK, true))
@@ -235,7 +275,7 @@ namespace Path_Validator
                     }
 
                 }
-                catch (Exception ex)
+                catch
                 {
                     throw new Exception("Falha ao executar o procedimento para validação de diretórios.");
                 }
@@ -267,7 +307,7 @@ namespace Path_Validator
 
         public static void VerifyFileToSave(string p_FilePath)
         {
-            
+
             if (File.Exists(p_FilePath))
             {
                 File.Delete(p_FilePath);
@@ -282,11 +322,31 @@ namespace Path_Validator
         {
             string v_ErrorMessage, v_ErrorTitle;
 
-            v_ErrorMessage = (!String.IsNullOrEmpty(p_ErrorMessage)) ? p_ErrorMessage : "Houve uma falha ao realizar o procedimento.\r\nFavor revisar as configurações de execução.";
-            v_ErrorTitle = "Falha durante execução do procedimento!";
+            v_ErrorMessage = (!String.IsNullOrEmpty(p_ErrorMessage)) ? p_ErrorMessage : @"Houve uma falha ao realizar o procedimento.\r\nFavor revisar as configurações de execução.";
+            v_ErrorTitle = @"Alerta";
 
-            ConsoleLog("[ERROR]" + v_ErrorTitle + ": " + v_ErrorMessage);
+            ConsoleLog(@"[ERROR] | " + v_ErrorTitle + @": " + v_ErrorMessage);
             MessageBox.Show(v_ErrorMessage, v_ErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        public void ProgressDivisor(int p_Length)
+        {
+            GlobalVar.ExecPiece = (p_Length / 100);
+            this.MainProgress.Value = 0;
+        }
+
+        public bool ProgressAdd(bool p_Finished = false)
+        {
+            if (this.MainProgress.Value + GlobalVar.ExecPiece >= 100 || p_Finished)
+            {
+                this.MainProgress.Value = 100;
+                return true;
+            }
+            else
+            {
+                this.MainProgress.Value += GlobalVar.ExecPiece;
+                return false;
+            }
         }
 
         private void rb_Varredura_CheckedChanged(object sender, EventArgs e)
