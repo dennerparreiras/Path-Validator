@@ -36,11 +36,11 @@
             this.rb_Arquivo = new System.Windows.Forms.RadioButton();
             this.rb_Varredura = new System.Windows.Forms.RadioButton();
             this.rb_WEB = new System.Windows.Forms.RadioButton();
+            this.SaveButton = new System.Windows.Forms.Button();
+            this.OpenButton = new System.Windows.Forms.Button();
+            this.RunButton = new System.Windows.Forms.Button();
             this.labelProgress = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.SaveButton = new System.Windows.Forms.Button();
-            this.RunButton = new System.Windows.Forms.Button();
-            this.OpenButton = new System.Windows.Forms.Button();
             this.tb_DiretorioPai = new System.Windows.Forms.TextBox();
             this.TitleLabel = new System.Windows.Forms.Label();
             this.Logo = new System.Windows.Forms.PictureBox();
@@ -49,6 +49,7 @@
             this.fb_DiretorioPai = new System.Windows.Forms.FolderBrowserDialog();
             this.backgroundWorker = new System.ComponentModel.BackgroundWorker();
             this.SaveFile = new System.Windows.Forms.SaveFileDialog();
+            this.labelLog = new System.Windows.Forms.Label();
             this.gb_Options.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
             this.SuspendLayout();
@@ -82,13 +83,14 @@
             this.gb_Options.Controls.Add(this.SaveButton);
             this.gb_Options.Controls.Add(this.OpenButton);
             this.gb_Options.Controls.Add(this.RunButton);
+            this.gb_Options.Controls.Add(this.labelLog);
             this.gb_Options.Controls.Add(this.labelProgress);
             this.gb_Options.Controls.Add(this.label3);
             this.gb_Options.Controls.Add(this.tb_DiretorioPai);
             this.gb_Options.ForeColor = System.Drawing.Color.White;
             this.gb_Options.Location = new System.Drawing.Point(48, 58);
             this.gb_Options.Name = "gb_Options";
-            this.gb_Options.Size = new System.Drawing.Size(760, 110);
+            this.gb_Options.Size = new System.Drawing.Size(760, 139);
             this.gb_Options.TabIndex = 2;
             this.gb_Options.TabStop = false;
             this.gb_Options.Text = "Configurações";
@@ -97,9 +99,9 @@
             // 
             this.MainProgress.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.MainProgress.Location = new System.Drawing.Point(10, 94);
+            this.MainProgress.Location = new System.Drawing.Point(14, 94);
             this.MainProgress.Name = "MainProgress";
-            this.MainProgress.Size = new System.Drawing.Size(740, 10);
+            this.MainProgress.Size = new System.Drawing.Size(734, 10);
             this.MainProgress.TabIndex = 6;
             // 
             // SelectDirectoryButton
@@ -157,32 +159,6 @@
             this.rb_WEB.UseVisualStyleBackColor = true;
             this.rb_WEB.CheckedChanged += new System.EventHandler(this.rb_Varredura_CheckedChanged);
             // 
-            // labelProgress
-            // 
-            this.labelProgress.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelProgress.AutoSize = true;
-            this.labelProgress.BackColor = System.Drawing.Color.Transparent;
-            this.labelProgress.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.labelProgress.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
-            this.labelProgress.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.labelProgress.Location = new System.Drawing.Point(705, 356);
-            this.labelProgress.Name = "labelProgress";
-            this.labelProgress.Size = new System.Drawing.Size(0, 18);
-            this.labelProgress.TabIndex = 4;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(160, 16);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(211, 18);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Configuração de Execução";
-            // 
             // SaveButton
             // 
             this.SaveButton.BackgroundImage = global::Path_Validator.Properties.Resources.if_floppy_285657;
@@ -197,6 +173,21 @@
             this.SaveButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.SaveButton.UseVisualStyleBackColor = true;
             this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
+            // 
+            // OpenButton
+            // 
+            this.OpenButton.BackgroundImage = global::Path_Validator.Properties.Resources.if_folder_299060;
+            this.OpenButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.OpenButton.FlatAppearance.BorderSize = 0;
+            this.OpenButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.OpenButton.ForeColor = System.Drawing.Color.Transparent;
+            this.OpenButton.Location = new System.Drawing.Point(10, 28);
+            this.OpenButton.Name = "OpenButton";
+            this.OpenButton.Size = new System.Drawing.Size(69, 59);
+            this.OpenButton.TabIndex = 0;
+            this.OpenButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.OpenButton.UseVisualStyleBackColor = true;
+            this.OpenButton.Click += new System.EventHandler(this.OpenButton_Click);
             // 
             // RunButton
             // 
@@ -215,20 +206,32 @@
             this.RunButton.UseVisualStyleBackColor = false;
             this.RunButton.Click += new System.EventHandler(this.RunButton_Click);
             // 
-            // OpenButton
+            // labelProgress
             // 
-            this.OpenButton.BackgroundImage = global::Path_Validator.Properties.Resources.if_folder_299060;
-            this.OpenButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.OpenButton.FlatAppearance.BorderSize = 0;
-            this.OpenButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OpenButton.ForeColor = System.Drawing.Color.Transparent;
-            this.OpenButton.Location = new System.Drawing.Point(10, 28);
-            this.OpenButton.Name = "OpenButton";
-            this.OpenButton.Size = new System.Drawing.Size(69, 59);
-            this.OpenButton.TabIndex = 0;
-            this.OpenButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.OpenButton.UseVisualStyleBackColor = true;
-            this.OpenButton.Click += new System.EventHandler(this.OpenButton_Click);
+            this.labelProgress.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelProgress.AutoSize = true;
+            this.labelProgress.BackColor = System.Drawing.Color.Transparent;
+            this.labelProgress.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.labelProgress.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.labelProgress.ForeColor = System.Drawing.Color.White;
+            this.labelProgress.Location = new System.Drawing.Point(11, 110);
+            this.labelProgress.Name = "labelProgress";
+            this.labelProgress.Size = new System.Drawing.Size(14, 18);
+            this.labelProgress.TabIndex = 4;
+            this.labelProgress.Text = "-";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(160, 16);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(211, 18);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Configuração de Execução";
             // 
             // tb_DiretorioPai
             // 
@@ -300,6 +303,20 @@
             this.SaveFile.DefaultExt = "txt";
             this.SaveFile.Filter = "\"TXT files|*.txt\"";
             // 
+            // labelLog
+            // 
+            this.labelLog.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelLog.AutoSize = true;
+            this.labelLog.BackColor = System.Drawing.Color.Transparent;
+            this.labelLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.labelLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.labelLog.ForeColor = System.Drawing.Color.White;
+            this.labelLog.Location = new System.Drawing.Point(72, 110);
+            this.labelLog.Name = "labelLog";
+            this.labelLog.Size = new System.Drawing.Size(14, 18);
+            this.labelLog.TabIndex = 4;
+            this.labelLog.Text = "-";
+            // 
             // MainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -347,6 +364,7 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker;
         private System.Windows.Forms.Label labelProgress;
         private System.Windows.Forms.SaveFileDialog SaveFile;
+        private System.Windows.Forms.Label labelLog;
     }
 }
 

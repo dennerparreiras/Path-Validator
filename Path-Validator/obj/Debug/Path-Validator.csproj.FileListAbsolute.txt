@@ -18,7 +18,6 @@ D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.cspr
 D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csproj.CoreCompileInputs.cache
 D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.exe
 D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.pdb
-D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.NativeMethods.resources
 D:\daleixo\workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.MainScreen.resources
 B:\workspace\Path-Validator\Path-Validator\bin\Debug\Path-Validator.exe.config
 B:\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.exe

@@ -62,9 +62,20 @@ __________         __  .__      ____   ____      .__  .__    .___       __
             Varredura
         }
 
+        const uint ATTACH_PARENT_PROCESS = 0x0ffffffff;
+
+        private void InitializeConsole()
+        {
+            if (!NativeMethods.AttachConsole(ATTACH_PARENT_PROCESS))
+            {
+                NativeMethods.AllocConsole();
+            };
+        }
+
         public MainScreen()
         {
-            NativeMethods.AllocConsole();
+            InitializeConsole();
+
             Console.WriteLine(Constantes.Console.HEADER);
 
             InitializeComponent();
@@ -97,7 +108,6 @@ __________         __  .__      ____   ____      .__  .__    .___       __
             this.labelProgress.Text = this.MainProgress.Value.ToString() + "%";
             backgroundWorker.RunWorkerAsync();
             backgroundWorker.CancelAsync();
-            //this.Enabled = true;
             this.Cursor = Cursors.Default;
         }
 
@@ -123,7 +133,6 @@ __________         __  .__      ____   ____      .__  .__    .___       __
             {
                 Error();
             }
-            //ProgressAdd(true);
         }
 
         private void OpenButton_Click(object sender, EventArgs e)
@@ -206,9 +215,6 @@ __________         __  .__      ____   ____      .__  .__    .___       __
                 GlobalVar.v_Name_OK = GenerateFilePath(Constantes.FileNames.OK);
                 GlobalVar.v_Name_Err = GenerateFilePath(Constantes.FileNames.ERROR);
 
-                //VerifyFileToSave(GlobalVar.v_Name_OK);
-                //VerifyFileToSave(GlobalVar.v_Name_Err);
-
                 string[] v_Lines = p_Path.Split(
                     new[] { "\r\n", "\r", "\n" },
                     StringSplitOptions.None
@@ -242,8 +248,6 @@ __________         __  .__      ____   ____      .__  .__    .___       __
 
             foreach (var v_url in p_Lines)
             {
-                //ProgressAdd();
-
                 try
                 {
                     if (Directory.Exists(v_url))
@@ -279,7 +283,6 @@ __________         __  .__      ____   ____      .__  .__    .___       __
 
             foreach (var v_url in p_Lines)
             {
-                //ProgressAdd();
                 HttpWebResponse response = null;
 
                 try
@@ -395,6 +398,7 @@ __________         __  .__      ____   ____      .__  .__    .___       __
             v_ErrorTitle = @"Alerta";
 
             ConsoleLog(@"[ERROR] | " + v_ErrorTitle + @": " + v_ErrorMessage);
+            this.labelLog.Text = (@"[ERROR] | " + v_ErrorTitle + @": " + v_ErrorMessage);
 
             if (!p_IgnoreMessageBox)
             {
@@ -413,20 +417,6 @@ __________         __  .__      ____   ____      .__  .__    .___       __
                 GlobalVar.ExecPiece = (int)(p_Length / 100);
             }
         }
-
-        //public bool ProgressAdd(bool p_Finished = false)
-        //{
-        //    if (this.MainProgress.Value + GlobalVar.ExecPiece >= 100 || p_Finished)
-        //    {
-        //        this.MainProgress.Value = 100;
-        //        return true;
-        //    }
-        //    else
-        //    {
-        //        this.MainProgress.Value += GlobalVar.ExecPiece;
-        //        return false;
-        //    }
-        //}
 
         private void rb_Varredura_CheckedChanged(object sender, EventArgs e)
         {
@@ -469,9 +459,8 @@ __________         __  .__      ____   ____      .__  .__    .___       __
 
         public void ConsoleLog(string p_Message = "Action executed.")
         {
-            //this.tb_Console.Text += p_Message;
-            //System.Diagnostics.Debug.WriteLine(p_Message);
             Console.WriteLine(p_Message);
+            //this.labelLog.Text = p_Message;
         }
 
         private void SelectDirectoryButton_Click(object sender, EventArgs e)
@@ -482,14 +471,6 @@ __________         __  .__      ____   ____      .__  .__    .___       __
 
         private void backgroundWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
-            //if (this.MainProgress.Value + GlobalVar.ExecPiece >= 100)
-            //{
-            //    this.MainProgress.Value = 100;
-            //}
-            //else
-            //{
-            //    this.MainProgress.Value += GlobalVar.ExecPiece;
-            //}
             this.MainProgress.Value = e.ProgressPercentage;
             this.labelProgress.Text = this.MainProgress.Value.ToString() + "%";
         }

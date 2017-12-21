@@ -32,6 +32,9 @@ namespace Path_Validator
         /// </remarks>
         [DllImport("kernel32.dll", SetLastError = true)]
         internal static extern int FreeConsole();
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        internal static extern bool AttachConsole(uint dwProcessId);
     }
 
     static class Program
