@@ -66,7 +66,18 @@ __________         __  .__      ____   ____      .__  .__    .___       __
         {
             NativeMethods.AllocConsole();
             Console.WriteLine(Constantes.Console.HEADER);
+
             InitializeComponent();
+
+            backgroundWorker.WorkerReportsProgress = true;
+            backgroundWorker.WorkerSupportsCancellation = true;
+        }
+
+        private void InitializeBackgroundWorker()
+        {
+            backgroundWorker.DoWork += new DoWorkEventHandler(backgroundWorker_DoWork);
+            backgroundWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(backgroundWorker_RunWorkerCompleted);
+            backgroundWorker.ProgressChanged += new ProgressChangedEventHandler(backgroundWorker_ProgressChanged);
         }
 
         private void MainScreen_Load(object sender, EventArgs e)
@@ -80,12 +91,39 @@ __________         __  .__      ____   ____      .__  .__    .___       __
 
         private void RunButton_Click(object sender, EventArgs e)
         {
+            this.Cursor = Cursors.WaitCursor;
+            this.Enabled = false;
             this.MainProgress.Value = 0;
-            if (!ValidatePath(this.tb_Urls.Text, ((this.rb_Arquivo.Checked) ? Procedimento.Arquivo : Procedimento.WEB)))
+            this.labelProgress.Text = this.MainProgress.Value.ToString() + "%";
+            backgroundWorker.RunWorkerAsync();
+            backgroundWorker.CancelAsync();
+            //this.Enabled = true;
+            this.Cursor = Cursors.Default;
+        }
+
+        private void backgroundWorker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            BackgroundWorker worker = sender as BackgroundWorker;
+            Procedimento v_ProcAtual;
+
+            if (rb_WEB.Checked)
+            {
+                v_ProcAtual = Procedimento.WEB;
+            }
+            else if (rb_Varredura.Checked)
+            {
+                v_ProcAtual = Procedimento.Varredura;
+            }
+            else
+            {
+                v_ProcAtual = Procedimento.Arquivo;
+            }
+
+            if (!ValidatePath(this.tb_Urls.Text, v_ProcAtual))
             {
                 Error();
             }
-            ProgressAdd(true);
+            //ProgressAdd(true);
         }
 
         private void OpenButton_Click(object sender, EventArgs e)
@@ -125,11 +163,42 @@ __________         __  .__      ____   ____      .__  .__    .___       __
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
+            try
+            {
+                SaveFile = new SaveFileDialog();
+                SaveFile.Filter = "TXT files|*.txt";
+                SaveFile.Title = "Salvar URLs do INPUT";
+                SaveFile.ShowDialog();
+
+                if (SaveFile.FileName != "")
+                {
+                    using (StreamWriter v_Arquivos = new StreamWriter(SaveFile.FileName, true))
+                    {
+                        foreach (var line in this.tb_Urls.Text.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None))
+                        {
+                            v_Arquivos.WriteLine(line);
+                        }
+                        v_Arquivos.Close();
+                    }
+
+                    ConsoleLog("Arquivo salvo com sucesso!");
+                }
+                else
+                {
+                    Error("Não foi possível salvar o arquivo!", true);
+                }
+            }
+            catch (Exception ex)
+            {
+                Error("Não foi possível salvar o arquivo!", false);
+                Error(ex.Message, false);
+            }
 
         }
 
         private bool ValidatePath(string p_Path, Procedimento p_Proc)
         {
+
             bool v_Success = false;
 
             if (VerifyResultsDirectory())
@@ -151,7 +220,7 @@ __________         __  .__      ____   ____      .__  .__    .___       __
                         v_Success = ValidateWEB(v_Lines);
                         break;
                     case Procedimento.Varredura:
-                        v_Success = WipeDirectories(v_Lines);
+                        v_Success = SearchDirectoryTree(this.tb_DiretorioPai.Text);
                         break;
                     case Procedimento.Arquivo:
                     default:
@@ -173,7 +242,7 @@ __________         __  .__      ____   ____      .__  .__    .___       __
 
             foreach (var v_url in p_Lines)
             {
-                ProgressAdd();
+                //ProgressAdd();
 
                 try
                 {
@@ -182,7 +251,7 @@ __________         __  .__      ____   ____      .__  .__    .___       __
                         using (StreamWriter v_ArquivosCertos = new StreamWriter(GlobalVar.v_Name_OK, true))
                         {
                             v_ArquivosCertos.WriteLine(v_url);
-                            ConsoleLog("[Directory] OK: " + v_url + "\r\n");
+                            ConsoleLog("[Directory] OK: " + v_url);
                         }
                     }
                     else
@@ -190,14 +259,14 @@ __________         __  .__      ____   ____      .__  .__    .___       __
                         using (StreamWriter v_ArquivosErrados = new StreamWriter(GlobalVar.v_Name_Err, true))
                         {
                             v_ArquivosErrados.WriteLine(v_url);
-                            ConsoleLog("[Directory] Not found/Error: " + v_url + "\r\n");
+                            ConsoleLog("[Directory] Not found/Error: " + v_url);
                         }
                     }
 
                 }
                 catch (Exception ex)
                 {
-                    ConsoleLog(ex.Message);
+                    Error(ex.Message);
                 }
             }
 
@@ -210,7 +279,7 @@ __________         __  .__      ____   ____      .__  .__    .___       __
 
             foreach (var v_url in p_Lines)
             {
-                ProgressAdd();
+                //ProgressAdd();
                 HttpWebResponse response = null;
 
                 try
@@ -224,7 +293,7 @@ __________         __  .__      ____   ____      .__  .__    .___       __
                     using (StreamWriter v_ArquivosCertos = new StreamWriter(GlobalVar.v_Name_OK, true))
                     {
                         v_ArquivosCertos.WriteLine(v_url);
-                        ConsoleLog("[WEB] OK: " + v_url + "\r\n");
+                        ConsoleLog("[WEB] OK: " + v_url);
                     }
                 }
                 catch /*(WebException ex)*/
@@ -233,7 +302,7 @@ __________         __  .__      ____   ____      .__  .__    .___       __
                     using (StreamWriter v_ArquivosErrados = new StreamWriter(GlobalVar.v_Name_Err, true))
                     {
                         v_ArquivosErrados.WriteLine(v_url);
-                        ConsoleLog("[WEB] Not found/Error: " + v_url + "\r\n");
+                        ConsoleLog("[WEB] Not found/Error: " + v_url);
                     }
                 }
                 finally
@@ -248,36 +317,36 @@ __________         __  .__      ____   ____      .__  .__    .___       __
             return true;
         }
 
-        private bool WipeDirectories(string[] p_Lines)
+        private bool SearchDirectoryTree(string p_MainPath)
         {
-            ProgressDivisor(p_Lines.Length);
+            ProgressDivisor(100);
 
-            foreach (var v_url in p_Lines)
+            foreach (string d in Directory.GetDirectories(p_MainPath))
             {
-                ProgressAdd();
+
                 try
                 {
-                    if (Directory.Exists(v_url))
+                    if (Directory.EnumerateFiles(d).Any() || Directory.EnumerateDirectories(d).Any() || Directory.EnumerateFileSystemEntries(d).Any())
                     {
                         using (StreamWriter v_ArquivosCertos = new StreamWriter(GlobalVar.v_Name_OK, true))
                         {
-                            v_ArquivosCertos.WriteLine(v_url);
-                            ConsoleLog("[Directory] OK: " + v_url + "\r\n");
+                            ConsoleLog(@"[Search Directory] OK: " + d);
+                            v_ArquivosCertos.WriteLine(d);
                         }
                     }
                     else
                     {
+                        ConsoleLog(@"[Search Directory] Empty: " + d);
                         using (StreamWriter v_ArquivosErrados = new StreamWriter(GlobalVar.v_Name_Err, true))
                         {
-                            v_ArquivosErrados.WriteLine(v_url);
-                            ConsoleLog("[Directory] Not found/Error: " + v_url + "\r\n");
+                            v_ArquivosErrados.WriteLine(d);
                         }
                     }
-
+                    SearchDirectoryTree(d);
                 }
-                catch
+                catch (Exception ex)
                 {
-                    throw new Exception("Falha ao executar o procedimento para validação de diretórios.");
+                    Error(@"SearchDirectoryTree: " + ex.Message, true);
                 }
             }
 
@@ -318,7 +387,7 @@ __________         __  .__      ____   ____      .__  .__    .___       __
             }
         }
 
-        public void Error(string p_ErrorMessage = "")
+        public void Error(string p_ErrorMessage = "", bool p_IgnoreMessageBox = false)
         {
             string v_ErrorMessage, v_ErrorTitle;
 
@@ -326,34 +395,43 @@ __________         __  .__      ____   ____      .__  .__    .___       __
             v_ErrorTitle = @"Alerta";
 
             ConsoleLog(@"[ERROR] | " + v_ErrorTitle + @": " + v_ErrorMessage);
-            MessageBox.Show(v_ErrorMessage, v_ErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
-        }
 
-        public void ProgressDivisor(int p_Length)
-        {
-            GlobalVar.ExecPiece = (p_Length / 100);
-            this.MainProgress.Value = 0;
-        }
-
-        public bool ProgressAdd(bool p_Finished = false)
-        {
-            if (this.MainProgress.Value + GlobalVar.ExecPiece >= 100 || p_Finished)
+            if (!p_IgnoreMessageBox)
             {
-                this.MainProgress.Value = 100;
-                return true;
+                MessageBox.Show(v_ErrorMessage, v_ErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void ProgressDivisor(int p_Length)
+        {
+            if ((int)(p_Length / 100) == 0)
+            {
+                GlobalVar.ExecPiece = (int)(100);
             }
             else
             {
-                this.MainProgress.Value += GlobalVar.ExecPiece;
-                return false;
+                GlobalVar.ExecPiece = (int)(p_Length / 100);
             }
         }
+
+        //public bool ProgressAdd(bool p_Finished = false)
+        //{
+        //    if (this.MainProgress.Value + GlobalVar.ExecPiece >= 100 || p_Finished)
+        //    {
+        //        this.MainProgress.Value = 100;
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        this.MainProgress.Value += GlobalVar.ExecPiece;
+        //        return false;
+        //    }
+        //}
 
         private void rb_Varredura_CheckedChanged(object sender, EventArgs e)
         {
             this.tb_DiretorioPai.Enabled = (bool)(this.rb_Varredura.Checked);
             this.tb_DiretorioPai.Visible = (bool)(this.rb_Varredura.Checked);
-            this.labelDiretorioPai.Visible = (bool)(this.rb_Varredura.Checked);
             this.SelectDirectoryButton.Enabled = (bool)(this.rb_Varredura.Checked);
             this.SelectDirectoryButton.Visible = (bool)(this.rb_Varredura.Checked);
         }
@@ -400,6 +478,29 @@ __________         __  .__      ____   ____      .__  .__    .___       __
         {
             this.fb_DiretorioPai.ShowDialog();
             this.tb_DiretorioPai.Text = this.fb_DiretorioPai.SelectedPath.ToString();
+        }
+
+        private void backgroundWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            //if (this.MainProgress.Value + GlobalVar.ExecPiece >= 100)
+            //{
+            //    this.MainProgress.Value = 100;
+            //}
+            //else
+            //{
+            //    this.MainProgress.Value += GlobalVar.ExecPiece;
+            //}
+            this.MainProgress.Value = e.ProgressPercentage;
+            this.labelProgress.Text = this.MainProgress.Value.ToString() + "%";
+        }
+
+        private void backgroundWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            this.MainProgress.Value = 100;
+            this.labelProgress.Text = this.MainProgress.Value.ToString() + "%";
+            this.Enabled = true;
+
+            MessageBox.Show("A execução do procedimento foi finalizada.\r\nVerifique os arquivos de log para avaliar os resultados obtidos.", "Concluído!", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
