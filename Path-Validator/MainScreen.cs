@@ -11,14 +11,36 @@ using System.IO;
 using System.Net;
 using System.Runtime.InteropServices;
 using Microsoft.Win32.SafeHandles;
+using System.Runtime.InteropServices;
 
 namespace Path_Validator
 {
-
     public partial class MainScreen : Form
     {
+        [DllImport("kernel32.dll", SetLastError = true)]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        static extern bool AllocConsole();
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        internal static extern int FreeConsole();
+
+
+        private void MainScreen_Load(object sender, EventArgs e)
+        {
+            AllocConsole();
+            Console.WriteLine(Constantes.Console.HEADER);
+            backgroundWorker.WorkerReportsProgress = true;
+            backgroundWorker.WorkerSupportsCancellation = true;
+        }
+
+        public MainScreen()
+        {
+            InitializeComponent();
+        }
+
         public struct Constantes
         {
+
             public const string path_Results = @"Results/";
 
             public struct FileNames
@@ -62,17 +84,6 @@ __________         __  .__      ____   ____      .__  .__    .___       __
             Varredura
         }
 
-        public MainScreen()
-        {
-            NativeMethods.AllocConsole();
-            Console.WriteLine(Constantes.Console.HEADER);
-
-            InitializeComponent();
-
-            backgroundWorker.WorkerReportsProgress = true;
-            backgroundWorker.WorkerSupportsCancellation = true;
-        }
-
         private void InitializeBackgroundWorker()
         {
             backgroundWorker.DoWork += new DoWorkEventHandler(backgroundWorker_DoWork);
@@ -80,13 +91,9 @@ __________         __  .__      ____   ____      .__  .__    .___       __
             backgroundWorker.ProgressChanged += new ProgressChangedEventHandler(backgroundWorker_ProgressChanged);
         }
 
-        private void MainScreen_Load(object sender, EventArgs e)
-        {
-        }
-
         private void MainScreen_FormClosing(object sender, FormClosingEventArgs e)
         {
-            NativeMethods.FreeConsole();
+            FreeConsole();
         }
 
         private void RunButton_Click(object sender, EventArgs e)

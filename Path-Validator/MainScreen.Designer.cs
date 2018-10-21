@@ -36,11 +36,11 @@
             this.rb_Arquivo = new System.Windows.Forms.RadioButton();
             this.rb_Varredura = new System.Windows.Forms.RadioButton();
             this.rb_WEB = new System.Windows.Forms.RadioButton();
+            this.SaveButton = new System.Windows.Forms.Button();
+            this.OpenButton = new System.Windows.Forms.Button();
+            this.RunButton = new System.Windows.Forms.Button();
             this.labelProgress = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.SaveButton = new System.Windows.Forms.Button();
-            this.RunButton = new System.Windows.Forms.Button();
-            this.OpenButton = new System.Windows.Forms.Button();
             this.tb_DiretorioPai = new System.Windows.Forms.TextBox();
             this.TitleLabel = new System.Windows.Forms.Label();
             this.Logo = new System.Windows.Forms.PictureBox();
@@ -157,6 +157,53 @@
             this.rb_WEB.UseVisualStyleBackColor = true;
             this.rb_WEB.CheckedChanged += new System.EventHandler(this.rb_Varredura_CheckedChanged);
             // 
+            // SaveButton
+            // 
+            this.SaveButton.BackgroundImage = global::Path_Validator.Properties.Resources.if_floppy_285657;
+            this.SaveButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SaveButton.FlatAppearance.BorderSize = 0;
+            this.SaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SaveButton.ForeColor = System.Drawing.Color.Transparent;
+            this.SaveButton.Location = new System.Drawing.Point(85, 28);
+            this.SaveButton.Name = "SaveButton";
+            this.SaveButton.Size = new System.Drawing.Size(69, 59);
+            this.SaveButton.TabIndex = 0;
+            this.SaveButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.SaveButton.UseVisualStyleBackColor = true;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
+            // 
+            // OpenButton
+            // 
+            this.OpenButton.BackgroundImage = global::Path_Validator.Properties.Resources.if_folder_299060;
+            this.OpenButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.OpenButton.FlatAppearance.BorderSize = 0;
+            this.OpenButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.OpenButton.ForeColor = System.Drawing.Color.Transparent;
+            this.OpenButton.Location = new System.Drawing.Point(10, 28);
+            this.OpenButton.Name = "OpenButton";
+            this.OpenButton.Size = new System.Drawing.Size(69, 59);
+            this.OpenButton.TabIndex = 0;
+            this.OpenButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.OpenButton.UseVisualStyleBackColor = true;
+            this.OpenButton.Click += new System.EventHandler(this.OpenButton_Click);
+            // 
+            // RunButton
+            // 
+            this.RunButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.RunButton.BackColor = System.Drawing.Color.Transparent;
+            this.RunButton.BackgroundImage = global::Path_Validator.Properties.Resources.if_Play_701486;
+            this.RunButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.RunButton.FlatAppearance.BorderSize = 0;
+            this.RunButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RunButton.ForeColor = System.Drawing.Color.Transparent;
+            this.RunButton.Location = new System.Drawing.Point(679, 16);
+            this.RunButton.Name = "RunButton";
+            this.RunButton.Size = new System.Drawing.Size(71, 72);
+            this.RunButton.TabIndex = 0;
+            this.RunButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.RunButton.UseVisualStyleBackColor = false;
+            this.RunButton.Click += new System.EventHandler(this.RunButton_Click);
+            // 
             // labelProgress
             // 
             this.labelProgress.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -182,53 +229,6 @@
             this.label3.Size = new System.Drawing.Size(211, 18);
             this.label3.TabIndex = 4;
             this.label3.Text = "Configuração de Execução";
-            // 
-            // SaveButton
-            // 
-            this.SaveButton.BackgroundImage = global::Path_Validator.Properties.Resources.if_floppy_285657;
-            this.SaveButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.SaveButton.FlatAppearance.BorderSize = 0;
-            this.SaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SaveButton.ForeColor = System.Drawing.Color.Transparent;
-            this.SaveButton.Location = new System.Drawing.Point(85, 28);
-            this.SaveButton.Name = "SaveButton";
-            this.SaveButton.Size = new System.Drawing.Size(69, 59);
-            this.SaveButton.TabIndex = 0;
-            this.SaveButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.SaveButton.UseVisualStyleBackColor = true;
-            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
-            // 
-            // RunButton
-            // 
-            this.RunButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.RunButton.BackColor = System.Drawing.Color.Transparent;
-            this.RunButton.BackgroundImage = global::Path_Validator.Properties.Resources.if_Play_701486;
-            this.RunButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.RunButton.FlatAppearance.BorderSize = 0;
-            this.RunButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RunButton.ForeColor = System.Drawing.Color.Transparent;
-            this.RunButton.Location = new System.Drawing.Point(679, 16);
-            this.RunButton.Name = "RunButton";
-            this.RunButton.Size = new System.Drawing.Size(71, 72);
-            this.RunButton.TabIndex = 0;
-            this.RunButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.RunButton.UseVisualStyleBackColor = false;
-            this.RunButton.Click += new System.EventHandler(this.RunButton_Click);
-            // 
-            // OpenButton
-            // 
-            this.OpenButton.BackgroundImage = global::Path_Validator.Properties.Resources.if_folder_299060;
-            this.OpenButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.OpenButton.FlatAppearance.BorderSize = 0;
-            this.OpenButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OpenButton.ForeColor = System.Drawing.Color.Transparent;
-            this.OpenButton.Location = new System.Drawing.Point(10, 28);
-            this.OpenButton.Name = "OpenButton";
-            this.OpenButton.Size = new System.Drawing.Size(69, 59);
-            this.OpenButton.TabIndex = 0;
-            this.OpenButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.OpenButton.UseVisualStyleBackColor = true;
-            this.OpenButton.Click += new System.EventHandler(this.OpenButton_Click);
             // 
             // tb_DiretorioPai
             // 
@@ -304,7 +304,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Path_Validator.Properties.Resources.VG;
+            this.BackgroundImage = global::Path_Validator.Properties.Resources.Network_Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(855, 413);
             this.Controls.Add(this.Logo);
@@ -318,6 +318,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Path Validator by Denner Parreiras";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainScreen_FormClosing);
+            this.Load += new System.EventHandler(this.MainScreen_Load);
             this.gb_Options.ResumeLayout(false);
             this.gb_Options.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
