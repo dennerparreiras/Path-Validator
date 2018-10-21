@@ -49,6 +49,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\DirectoryTree.cs" />
+    <Compile Include="App_Code\Output.cs" />
+    <Compile Include="App_Code\Statistics.cs" />
     <Compile Include="MainScreen.cs">
       <SubType>Form</SubType>
     </Compile>

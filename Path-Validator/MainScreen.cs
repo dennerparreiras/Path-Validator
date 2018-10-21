@@ -12,6 +12,7 @@ using System.Net;
 using System.Runtime.InteropServices;
 using Microsoft.Win32.SafeHandles;
 using System.Runtime.InteropServices;
+using Path_Validator.App_Code;
 
 namespace Path_Validator
 {
@@ -227,7 +228,11 @@ __________         __  .__      ____   ____      .__  .__    .___       __
                         v_Success = ValidateWEB(v_Lines);
                         break;
                     case Procedimento.Varredura:
-                        v_Success = SearchDirectoryTree(this.tb_DiretorioPai.Text);
+                        {
+                            DirectoryTree FolderTree = new DirectoryTree(this.tb_DiretorioPai.Text);
+                            Output.Print(FolderTree.FolderTreeStats.FinalReport);
+                            v_Success = true;
+                        }
                         break;
                     case Procedimento.Arquivo:
                     default:
