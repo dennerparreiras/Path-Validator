@@ -1,4 +1,0 @@
-E:\Backup ATERPA\.Trash-1000\expunged
-E:\Backup ATERPA\.Trash-1000\files
-E:\Backup ATERPA\.Trash-1000\info
-E:\Backup ATERPA\Android\sdk\build-tools\25.0.0\lib64
