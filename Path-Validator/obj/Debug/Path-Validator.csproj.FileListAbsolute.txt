@@ -30,3 +30,14 @@ B:\workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.MainScreen.r
 B:\workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.Properties.Resources.resources
 B:\workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.SplashScreen.resources
 B:\workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csproj.GenerateResource.Cache
+B:\Developer Area\Workspace\Path-Validator\Path-Validator\bin\Debug\Path-Validator.exe.config
+B:\Developer Area\Workspace\Path-Validator\Path-Validator\bin\Debug\Path-Validator.exe
+B:\Developer Area\Workspace\Path-Validator\Path-Validator\bin\Debug\Path-Validator.pdb
+B:\Developer Area\Workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csprojAssemblyReference.cache
+B:\Developer Area\Workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.MainScreen.resources
+B:\Developer Area\Workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.Properties.Resources.resources
+B:\Developer Area\Workspace\Path-Validator\Path-Validator\obj\Debug\Path_Validator.SplashScreen.resources
+B:\Developer Area\Workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csproj.GenerateResource.cache
+B:\Developer Area\Workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csproj.CoreCompileInputs.cache
+B:\Developer Area\Workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.exe
+B:\Developer Area\Workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.pdb

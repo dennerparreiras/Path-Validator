@@ -1,0 +1,335 @@
+
+E:\Backup ATERPA\.Trash-1000\expunged
+E:\Backup ATERPA\.Trash-1000\files
+E:\Backup ATERPA\.Trash-1000\info
+E:\Backup ATERPA\Android\sdk\build-tools\25.0.0\lib64
+E:\Backup ATERPA\Arquivos\Aplicativos\Acesso Remoto
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw6\Business
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw6\Enterprise
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw7\Enterprise
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw7\Professional
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw8\Enterprise\plugin-manifests-signed
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw8\Enterprise\tokens\addons\APPXLOB-Client
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw8\Enterprise\tokens\addons\OCUR
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw8\Enterprise\tokens\issuance
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw8\Enterprise\tokens\legacy
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw8\Enterprise\tokens\pkeyconfig
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw8\Enterprise\tokens\ppdlic
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw8\Enterprise\tokens\rules
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw8\Enterprise\tokens\skus\csvlk-pack
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw8\Enterprise\tokens\skus\Enterprise
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw8\Professional
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\cert\kmscertw81\Professional
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\x64
+E:\Backup ATERPA\Arquivos\Ativadores\KMSpico\x86
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\eclipse\configuration\org.eclipse.e4.ui.css.swt.theme
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\eclipse\dropins
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\eclipse\p2\org.eclipse.equinox.p2.repository\cache\downloading
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\Aplicativos\eclipse\configuration\org.eclipse.e4.ui.css.swt.theme
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\Aplicativos\eclipse\dropins
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\Aplicativos\eclipse\p2\org.eclipse.equinox.p2.repository\cache\downloading
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\Código\ATERPA\validators
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\Código\Aterpa - Aprovação Pedidos\events
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\Código\Aterpa - Aprovação Pedidos\reports
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\Código\Aterpa - Aprovação Pedidos\wcm\layout
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\Código\Aterpa - Aprovação Pedidos\wcm\widget
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\Código\ATERPA PRODUCAO\.settings
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\Código\ATERPA PRODUCAO\validators
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\eclipse\configuration\org.eclipse.e4.ui.css.swt.theme
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\eclipse\dropins
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\eclipse\p2\org.eclipse.equinox.p2.repository\cache\downloading
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\Material Fluig\07 - WCM\Exercícios\helloSemTemplate\src\main\java
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\Material Fluig\07 - WCM\Exercícios\helloSemTemplate\src\main\webapp\META-INF
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\FLUIG\Material Fluig\07 - WCM\Exercícios\helloSemTemplate\src\test\java
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\Material Fluig\07 - WCM\Exercícios\helloSemTemplate\src\main\java
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\Material Fluig\07 - WCM\Exercícios\helloSemTemplate\src\main\webapp\META-INF
+E:\Backup ATERPA\Arquivos\Documentos\ATERPA\Material Fluig\07 - WCM\Exercícios\helloSemTemplate\src\test\java
+E:\Backup ATERPA\Arquivos\Documentos\Estudo\TI - eBooks
+E:\Backup ATERPA\Arquivos\Drivers\Driver Booster - Instalado\Backups
+E:\Backup ATERPA\Arquivos\Manutenção\rizone-memory-booster-1.1.1\memboost\Sounds
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\12
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\13
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\29
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\33
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\5c
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\60
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\65
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\70
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\ca
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\d0
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\d2
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\f4
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\ff
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.projects\FLUIG\org.eclipse.wst.jsdt.core
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.debug.core
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.debug.ui
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.help.base
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.jst.jsp.core\taglibindex
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.pde.core\.p2\org.eclipse.equinox.p2.engine\profileRegistry
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.ui.intro
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.ui.workbench.texteditor
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.wst.common.modulecore
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.wst.common.snippets\storage
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.wst.server.core
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\.metadata\.plugins\org.eclipse.wst.validation
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\datasets
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\events
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\forms
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\mechanisms
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\reports
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\layout\layout_teste_home\src\main\webapp\resources\js
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_destaques\src\main\java
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_destaques\src\main\webapp\META-INF
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_destaques\src\test\java
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_documentos_informativo\src\main\webapp\WEB-INF\lib
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_aplicativos\src\main\java
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_aplicativos\src\main\webapp\META-INF
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_aplicativos\src\test\java
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_informativos\src\main\java
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_informativos\src\main\webapp\META-INF
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_informativos\src\test\java
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_main_homepage\src\main\java
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_main_homepage\src\main\webapp\META-INF
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_main_homepage\src\test\java
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_noticias\src\main\java
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_noticias\src\main\webapp\META-INF
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_noticias\src\test\java
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\workflow\diagrams
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\workflow\literals
+E:\Backup ATERPA\Arquivos\Projetos\Conectar - FLUIG\FLUIG\workflow\scripts
+E:\Backup ATERPA\Arquivos\Projetos\Eclipse\configuration\org.eclipse.e4.ui.css.swt.theme
+E:\Backup ATERPA\Arquivos\Projetos\Eclipse\configuration\org.eclipse.osgi\95\data\jettywork
+E:\Backup ATERPA\Arquivos\Projetos\Eclipse\dropins
+E:\Backup ATERPA\Arquivos\Projetos\Eclipse\p2\org.eclipse.equinox.p2.repository\cache\downloading
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\12
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\13
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\29
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\33
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\5c
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\60
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\65
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\70
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\ca
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\d0
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\d2
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\f4
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.history\ff
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.core.resources\.projects\FLUIG\org.eclipse.wst.jsdt.core
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.debug.core
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.debug.ui
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.help.base
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.jst.jsp.core\taglibindex
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.pde.core\.p2\org.eclipse.equinox.p2.engine\profileRegistry
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.ui.intro
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.ui.workbench.texteditor
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.wst.common.modulecore
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.wst.common.snippets\storage
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.wst.server.core
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\.metadata\.plugins\org.eclipse.wst.validation
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\datasets
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\events
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\forms
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\mechanisms
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\reports
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\layout\layout_teste_home\src\main\webapp\resources\js
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_destaques\src\main\java
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_destaques\src\main\webapp\META-INF
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_destaques\src\test\java
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_documentos_informativo\src\main\webapp\WEB-INF\lib
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_aplicativos\src\main\java
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_aplicativos\src\main\webapp\META-INF
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_aplicativos\src\test\java
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_informativos\src\main\java
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_informativos\src\main\webapp\META-INF
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_informativos\src\test\java
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_main_homepage\src\main\java
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_main_homepage\src\main\webapp\META-INF
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_main_homepage\src\test\java
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_noticias\src\main\java
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_noticias\src\main\webapp\META-INF
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\wcm\widget\widg_lista_noticias\src\test\java
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\workflow\diagrams
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\workflow\literals
+E:\Backup ATERPA\Arquivos\Projetos\Projetos Conectar - FLUIG\FLUIG\workflow\scripts
+E:\Backup ATERPA\Arquivos\Projetos\ZUMA\ZUMA\audio
+E:\Backup ATERPA\Arquivos\Projetos\ZUMA\ZUMA\bin\Release
+E:\Backup ATERPA\Backups\Desktop (OLD)\connect4\connect4\backend\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\utf-8-validate\build\Release\.deps\Release\obj.target\validation\src
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Drivers\Driver Booster\Backups
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Manutenção\rizone-memory-booster-1.1.1\memboost\Sounds
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\3º Período\AED\LAB\2015_05_09__Questao4\2015_05_09__Questao4\bin\Release
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\3º Período\AED\LAB\2015_05_09__Questao4\2015_05_09__Questao4\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\3º Período\AED\LAB\Aula_AED_16_05\Aula_AED_16_05\bin\Release
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\3º Período\AED\LAB\Aula_AED_16_05\Aula_AED_16_05\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\3º Período\AED\LAB\ConsoleApplication7\ConsoleApplication7\bin\Release
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\3º Período\AED\LAB\ConsoleApplication7\ConsoleApplication7\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\3º Período\AED\TI\_2015_29_04_TI_AED_Console\_2015_29_04_TI_AED_Console\bin\Release
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\AED01 - MatriculaPUC\AED01 - MatriculaPUC\bin\Release
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\AED01 - MatriculaPUC\AED01 - MatriculaPUC\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\BuscaBinaria\BuscaBinaria\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\ConsoleApplication7\ConsoleApplication7\bin\Release
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\ConsoleApplication7\ConsoleApplication7\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\jogoZUMA\jogoZUMA\bin\Release
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\jogoZUMA\jogoZUMA\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\Laboratório de AED\ListaEncadeada\ListaEncadeada\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\Laboratório de AED\Teste\Teste\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\ListaDuplamenteEncadeada\ListaDuplamenteEncadeada\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\MaxMin1\MaxMin1\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\Randomizar\Randomizar\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\ZUMA\ZUMA\audio
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\PUC\ZUMA\ZUMA\bin\Release
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\TP SO\4.3 - Produtor e Consumidor
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\TP SO\6.2 - Threads em Java\Implementação em Java\JavaApplication1\build\empty
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\TP SO\6.2 - Threads em Java\Implementação em Java\JavaApplication1\build\generated-sources\ap-source-output
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\Formatação\Other\_2015_29_04_TI_AED_Console\_2015_29_04_TI_AED_Console\bin\Release
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw6\Business
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw6\Enterprise
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw7\Enterprise
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw7\Professional
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw8\Enterprise\plugin-manifests-signed
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw8\Enterprise\tokens\addons\APPXLOB-Client
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw8\Enterprise\tokens\addons\OCUR
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw8\Enterprise\tokens\issuance
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw8\Enterprise\tokens\legacy
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw8\Enterprise\tokens\pkeyconfig
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw8\Enterprise\tokens\ppdlic
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw8\Enterprise\tokens\rules
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw8\Enterprise\tokens\skus\csvlk-pack
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw8\Enterprise\tokens\skus\Enterprise
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw8\Professional
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\cert\kmscertw81\Professional
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\x64
+E:\Backup ATERPA\Backups\Desktop (OLD)\HD\KMSpico10\KMSpicoPortable\x86
+E:\Backup ATERPA\Backups\Desktop (OLD)\Projetos\connect4\backend\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\utf-8-validate\build\Release\.deps\Release\obj.target\validation\src
+E:\Backup ATERPA\Backups\Desktop (OLD)\Teste\js
+E:\Backup ATERPA\Backups\Desktop (OLD)\ZUMA\ZUMA\audio
+E:\Backup ATERPA\Backups\Desktop (OLD)\ZUMA\ZUMA\bin\Release
+E:\Backup ATERPA\Backups\Documents\My Cheat Tables
+E:\Backup ATERPA\Backups\Documents\R-TT\R-Studio
+E:\Backup ATERPA\Backups\Documents\R-TT\RECOVERY
+E:\Backup ATERPA\Backups\Documents\SAP\SAP GUI
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\ArchitectureExplorer
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Backup Files\Gerador_de_Email
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Code Snippets\PowerShell\My Code Snippets
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Code Snippets\Visual Basic\My Code Snippets
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Projects\ActiveDirectoryHelper\ActiveDirectoryHelper\bin\Release
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Projects\ActiveDirectoryHelper\ActiveDirectoryHelper\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Projects\Encoding\Encoding\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Projects\Encoding Project\Encoding Project\bin\Release
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Projects\Encoding Project\Encoding Project\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Projects\Gerador de Senhas\Gerador de Senhas\bin\Release
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Projects\Gerador de Senhas\Gerador de Senhas\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Projects\Gerador_de_Email\Gerador_de_Email\bin\Release
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Projects\Gerador_de_Email\Gerador_de_Email\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Projects\Gerador_de_Email - Cópia\Gerador_de_Email\bin\Release
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Projects\Teste\Teste\bin\Release
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Projects\Teste\Teste\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Projects\Testing Sandbox\Testing Sandbox\bin\Release
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Projects\Testing Sandbox\Testing Sandbox\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\StartPages
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Templates\ItemTemplates\Extensibility
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Templates\ItemTemplates\JavaScript
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Templates\ItemTemplates\TypeScript
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Templates\ItemTemplates\Visual Basic
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Templates\ItemTemplates\Visual C#
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Templates\ItemTemplates\Visual C++ Project
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Templates\ItemTemplates\Visual Web Developer
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Templates\ProjectTemplates\Extensibility
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Templates\ProjectTemplates\JavaScript
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Templates\ProjectTemplates\TypeScript
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual Basic
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C++ Project
+E:\Backup ATERPA\Backups\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual Web Developer
+E:\Backup ATERPA\Backups\Downloads\OLD\05f5adda-f629-4dc2-94fc-2d01a4776cb0_1336121_P14_Denner Parreiras Aleixo\Aula_AED_16_05\Aula_AED_16_05\bin\Release
+E:\Backup ATERPA\Backups\Downloads\OLD\05f5adda-f629-4dc2-94fc-2d01a4776cb0_1336121_P14_Denner Parreiras Aleixo\Aula_AED_16_05\Aula_AED_16_05\obj\Debug\TempPE
+E:\Backup ATERPA\Backups\Downloads\OLD\connect4\connect4\backend\node_modules\socket.io\node_modules\socket.io-client\node_modules\engine.io-client\node_modules\ws\node_modules\utf-8-validate\build\Release\.deps\Release\obj.target\validation\src
+E:\Backup ATERPA\Backups\Downloads\OLD\CriptografiaMD5\CriptografiaMD5\CriptografiaMD5\bin\Release
+E:\Backup ATERPA\Backups\Downloads\OLD\CriptografiaMD5\CriptografiaMD5\CriptografiaMD5\obj\x86\Debug\TempPE
+E:\Backup ATERPA\Backups\Downloads\OLD\eaa9a98a-c5bf-4d58-b406-345eec4c22de_1317725_P9_Denner Parreiras Aleixo\ZUMA\ZUMA\audio
+E:\Backup ATERPA\Backups\Downloads\OLD\eaa9a98a-c5bf-4d58-b406-345eec4c22de_1317725_P9_Denner Parreiras Aleixo\ZUMA\ZUMA\bin\Release
+E:\Backup ATERPA\Backups\Downloads\OLD\eaa9a98a-c5bf-4d58-b406-345eec4c22de_1317725_P9_Denner Parreiras Aleixo (2)\ZUMA\ZUMA\audio
+E:\Backup ATERPA\Backups\Downloads\OLD\eaa9a98a-c5bf-4d58-b406-345eec4c22de_1317725_P9_Denner Parreiras Aleixo (2)\ZUMA\ZUMA\bin\Release
+E:\Backup ATERPA\Backups\Downloads\OLD\eclipse-javascript-neon-R-win32-x86_64\eclipse\dropins
+E:\Backup ATERPA\Backups\Downloads\OLD\eclipse-javascript-neon-R-win32-x86_64\eclipse\features\org.eclipse.tm.terminal.connector.serial.feature_4.1.0.201606052351\META-INF\maven\org.eclipse.tm.terminal
+E:\Backup ATERPA\Backups\Downloads\OLD\eclipse-javascript-neon-R-win32-x86_64\eclipse\features\org.eclipse.tm.terminal.connector.telnet.feature_4.1.0.201606052351\META-INF\maven\org.eclipse.tm.terminal
+E:\Backup ATERPA\Backups\Downloads\OLD\eclipse-javascript-neon-R-win32-x86_64\eclipse\features\org.eclipse.wst.jsdt.chromium.debug.feature_0.4.0.v201606032110\META-INF\maven\org.eclipse.webtools.jsdt.features
+E:\Backup ATERPA\Backups\Downloads\OLD\Orkut\Orkut\Francielle Yohane (35550-00)
+E:\Backup ATERPA\Backups\Downloads\OLD\ZUMA\ZUMA\audio
+E:\Backup ATERPA\Backups\Downloads\OLD\ZUMA\ZUMA\bin\Release
+E:\Backup ATERPA\Backups\InstallAnywhere
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\00\12\11
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\01\01\05
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\01\03\11
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\01\06\03
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\02\04\15
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\03\12\13
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\04\11\02
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\04\11\11
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\04\15\07
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\05\00\07
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\05\12\05
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\05\13\02
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\06\02\00
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\07\01\01
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\07\07\12
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\09\00\02
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\09\08\07
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\09\12\14
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\10\08\02
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\10\13\04
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\10\14\08
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\13\03\14
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\13\04\07
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\14\13\00
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\15\12\07
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Cache\B240C120AAC82948\15\12\15
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Custom
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Download\B240C120AAC82948\00\12\08
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Download\B240C120AAC82948\03\07\01
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Download\B240C120AAC82948\04\13\09
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Download\B240C120AAC82948\07\06\01
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Download\B240C120AAC82948\12\01\10
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Download\B240C120AAC82948\15\12\05
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Generated
+E:\Backup ATERPA\Backups\Music\iTunes\Album Artwork\Store
+E:\Backup ATERPA\Backups\Music\iTunes\iTunes Media\Adicionar Automaticamente ao iTunes
+E:\Backup ATERPA\Backups\Music\iTunes\iTunes Media\Downloads
+E:\Backup ATERPA\Backups\Music\iTunes\iTunes Media\Music\Papa Roach\The Paramour Sessions
+E:\Backup ATERPA\BlueStacks 2\Bluestacks\BluestacksGameManager\UserData\Cache\Cache\7
+E:\Backup ATERPA\BlueStacks 2\Bluestacks\UserData\Announcements
+E:\Backup ATERPA\BlueStacks 2\Bluestacks\UserData\AppSync\done
+E:\Backup ATERPA\BlueStacks 2\Bluestacks\UserData\AppSync\invalid
+E:\Backup ATERPA\BlueStacks 2\Bluestacks\UserData\AppSync\new
+E:\Backup ATERPA\BlueStacks 2\Bluestacks\UserData\AppSync\retry
+E:\Backup ATERPA\BlueStacks 2\Bluestacks\UserData\InputMapper\UserFiles
+E:\Backup ATERPA\BlueStacks 2\Bluestacks\UserData\Library\App Stores
+E:\Backup ATERPA\BlueStacks 2\Bluestacks\UserData\SharedFolder
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\3º Período\AED\LAB\2015_05_09__Questao4\2015_05_09__Questao4\bin\Release
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\3º Período\AED\LAB\2015_05_09__Questao4\2015_05_09__Questao4\obj\Debug\TempPE
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\3º Período\AED\LAB\Aula_AED_16_05\Aula_AED_16_05\bin\Release
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\3º Período\AED\LAB\Aula_AED_16_05\Aula_AED_16_05\obj\Debug\TempPE
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\3º Período\AED\LAB\ConsoleApplication7\ConsoleApplication7\bin\Release
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\3º Período\AED\LAB\ConsoleApplication7\ConsoleApplication7\obj\Debug\TempPE
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\3º Período\AED\TI\_2015_29_04_TI_AED_Console\_2015_29_04_TI_AED_Console\bin\Release
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\AED01 - MatriculaPUC\AED01 - MatriculaPUC\bin\Release
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\AED01 - MatriculaPUC\AED01 - MatriculaPUC\obj\Debug\TempPE
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\BuscaBinaria\BuscaBinaria\obj\Debug\TempPE
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\ConsoleApplication7\ConsoleApplication7\bin\Release
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\ConsoleApplication7\ConsoleApplication7\obj\Debug\TempPE
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\jogoZUMA\jogoZUMA\bin\Release
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\jogoZUMA\jogoZUMA\obj\Debug\TempPE
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\Laboratório de AED\ListaEncadeada\ListaEncadeada\obj\Debug\TempPE
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\Laboratório de AED\Teste\Teste\obj\Debug\TempPE
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\ListaDuplamenteEncadeada\ListaDuplamenteEncadeada\obj\Debug\TempPE
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\MaxMin1\MaxMin1\obj\Debug\TempPE
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\Randomizar\Randomizar\obj\Debug\TempPE
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\ZUMA\ZUMA\audio
+E:\Backup ATERPA\Dados Pessoais\BKP\PUC\ZUMA\ZUMA\bin\Release
+E:\Backup ATERPA\Dados Pessoais\BKP\TP SO\4.3 - Produtor e Consumidor
+E:\Backup ATERPA\Dados Pessoais\BKP\TP SO\6.2 - Threads em Java\Implementação em Java\JavaApplication1\build\empty
+E:\Backup ATERPA\Dados Pessoais\BKP\TP SO\6.2 - Threads em Java\Implementação em Java\JavaApplication1\build\generated-sources\ap-source-output
+E:\Backup ATERPA\Dados Pessoais\BKP\_2015_29_04_TI_AED_Console\_2015_29_04_TI_AED_Console\bin\Release
+E:\Backup ATERPA\Dados Pessoais\Orkut\Francielle Yohane (35550-00)
+E:\Sony Vegas Pro 13.0 build 310 (64 bit) (patch KHG) [ChingLiu]\Patch KHG
