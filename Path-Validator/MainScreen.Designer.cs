@@ -66,7 +66,7 @@
             this.tb_Urls.Multiline = true;
             this.tb_Urls.Name = "tb_Urls";
             this.tb_Urls.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_Urls.Size = new System.Drawing.Size(845, 357);
+            this.tb_Urls.Size = new System.Drawing.Size(767, 273);
             this.tb_Urls.TabIndex = 1;
             // 
             // gb_Options
@@ -86,9 +86,9 @@
             this.gb_Options.Controls.Add(this.label3);
             this.gb_Options.Controls.Add(this.tb_DiretorioPai);
             this.gb_Options.ForeColor = System.Drawing.Color.White;
-            this.gb_Options.Location = new System.Drawing.Point(48, 58);
+            this.gb_Options.Location = new System.Drawing.Point(48, 73);
             this.gb_Options.Name = "gb_Options";
-            this.gb_Options.Size = new System.Drawing.Size(845, 110);
+            this.gb_Options.Size = new System.Drawing.Size(767, 110);
             this.gb_Options.TabIndex = 2;
             this.gb_Options.TabStop = false;
             this.gb_Options.Text = "Configurações";
@@ -99,7 +99,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.MainProgress.Location = new System.Drawing.Point(10, 94);
             this.MainProgress.Name = "MainProgress";
-            this.MainProgress.Size = new System.Drawing.Size(825, 10);
+            this.MainProgress.Size = new System.Drawing.Size(747, 10);
             this.MainProgress.TabIndex = 6;
             // 
             // SelectDirectoryButton
@@ -110,7 +110,7 @@
             this.SelectDirectoryButton.FlatAppearance.BorderSize = 0;
             this.SelectDirectoryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SelectDirectoryButton.ForeColor = System.Drawing.Color.Transparent;
-            this.SelectDirectoryButton.Location = new System.Drawing.Point(442, 59);
+            this.SelectDirectoryButton.Location = new System.Drawing.Point(390, 59);
             this.SelectDirectoryButton.Name = "SelectDirectoryButton";
             this.SelectDirectoryButton.Size = new System.Drawing.Size(39, 29);
             this.SelectDirectoryButton.TabIndex = 5;
@@ -137,7 +137,7 @@
             // 
             this.rb_Varredura.AutoSize = true;
             this.rb_Varredura.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rb_Varredura.Location = new System.Drawing.Point(442, 37);
+            this.rb_Varredura.Location = new System.Drawing.Point(390, 37);
             this.rb_Varredura.Name = "rb_Varredura";
             this.rb_Varredura.Size = new System.Drawing.Size(242, 24);
             this.rb_Varredura.TabIndex = 1;
@@ -196,7 +196,7 @@
             this.RunButton.FlatAppearance.BorderSize = 0;
             this.RunButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RunButton.ForeColor = System.Drawing.Color.Transparent;
-            this.RunButton.Location = new System.Drawing.Point(764, 16);
+            this.RunButton.Location = new System.Drawing.Point(686, 16);
             this.RunButton.Name = "RunButton";
             this.RunButton.Size = new System.Drawing.Size(71, 72);
             this.RunButton.TabIndex = 0;
@@ -212,7 +212,7 @@
             this.labelProgress.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelProgress.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             this.labelProgress.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.labelProgress.Location = new System.Drawing.Point(790, 356);
+            this.labelProgress.Location = new System.Drawing.Point(712, 356);
             this.labelProgress.Name = "labelProgress";
             this.labelProgress.Size = new System.Drawing.Size(0, 18);
             this.labelProgress.TabIndex = 4;
@@ -240,10 +240,10 @@
             this.tb_DiretorioPai.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tb_DiretorioPai.Enabled = false;
             this.tb_DiretorioPai.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_DiretorioPai.Location = new System.Drawing.Point(487, 65);
+            this.tb_DiretorioPai.Location = new System.Drawing.Point(435, 65);
             this.tb_DiretorioPai.Name = "tb_DiretorioPai";
             this.tb_DiretorioPai.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_DiretorioPai.Size = new System.Drawing.Size(265, 20);
+            this.tb_DiretorioPai.Size = new System.Drawing.Size(245, 20);
             this.tb_DiretorioPai.TabIndex = 1;
             this.tb_DiretorioPai.Visible = false;
             // 
@@ -264,7 +264,7 @@
             // 
             this.Logo.BackColor = System.Drawing.Color.Transparent;
             this.Logo.Image = global::Path_Validator.Properties.Resources.bonsai;
-            this.Logo.Location = new System.Drawing.Point(48, 12);
+            this.Logo.Location = new System.Drawing.Point(48, 27);
             this.Logo.Name = "Logo";
             this.Logo.Size = new System.Drawing.Size(47, 40);
             this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -278,7 +278,7 @@
             this.LogoLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LogoLabel.Font = new System.Drawing.Font("Consolas", 25F);
             this.LogoLabel.ForeColor = System.Drawing.Color.White;
-            this.LogoLabel.Location = new System.Drawing.Point(101, 12);
+            this.LogoLabel.Location = new System.Drawing.Point(101, 27);
             this.LogoLabel.Name = "LogoLabel";
             this.LogoLabel.Size = new System.Drawing.Size(359, 40);
             this.LogoLabel.TabIndex = 4;
@@ -306,7 +306,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Path_Validator.Properties.Resources.topo_fundo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(940, 598);
+            this.ClientSize = new System.Drawing.Size(862, 514);
             this.Controls.Add(this.Logo);
             this.Controls.Add(this.LogoLabel);
             this.Controls.Add(this.TitleLabel);
