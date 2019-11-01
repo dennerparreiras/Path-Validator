@@ -103,9 +103,10 @@ __________         __  .__      ____   ____      .__  .__    .___       __
             this.Enabled = false;
             this.MainProgress.Value = 0;
             this.labelProgress.Text = this.MainProgress.Value.ToString() + "%";
+
             backgroundWorker.RunWorkerAsync();
             backgroundWorker.CancelAsync();
-            //this.Enabled = true;
+
             this.Cursor = Cursors.Default;
         }
 
@@ -131,7 +132,6 @@ __________         __  .__      ____   ____      .__  .__    .___       __
             {
                 Error();
             }
-            //ProgressAdd(true);
         }
 
         private void OpenButton_Click(object sender, EventArgs e)
@@ -175,7 +175,7 @@ __________         __  .__      ____   ____      .__  .__    .___       __
             {
                 SaveFile = new SaveFileDialog();
                 SaveFile.Filter = "TXT files|*.txt";
-                SaveFile.Title = "Salvar URLs do INPUT";
+                SaveFile.Title = "Save URLs from INPUT";
                 SaveFile.ShowDialog();
 
                 if (SaveFile.FileName != "")
@@ -189,16 +189,16 @@ __________         __  .__      ____   ____      .__  .__    .___       __
                         v_Arquivos.Close();
                     }
 
-                    ConsoleLog("Arquivo salvo com sucesso!");
+                    ConsoleLog("File saved sucessfully!");
                 }
                 else
                 {
-                    Error("Não foi possível salvar o arquivo!", true);
+                    Error("The file is not saved!", true);
                 }
             }
             catch (Exception ex)
             {
-                Error("Não foi possível salvar o arquivo!", false);
+                Error("The file is not saved!", false);
                 Error(ex.Message, false);
             }
 
@@ -213,9 +213,6 @@ __________         __  .__      ____   ____      .__  .__    .___       __
             {
                 GlobalVar.v_Name_OK = GenerateFilePath(Constantes.FileNames.OK);
                 GlobalVar.v_Name_Err = GenerateFilePath(Constantes.FileNames.ERROR);
-
-                //VerifyFileToSave(GlobalVar.v_Name_OK);
-                //VerifyFileToSave(GlobalVar.v_Name_Err);
 
                 string[] v_Lines = p_Path.Split(
                     new[] { "\r\n", "\r", "\n" },
@@ -254,8 +251,6 @@ __________         __  .__      ____   ____      .__  .__    .___       __
 
             foreach (var v_url in p_Lines)
             {
-                //ProgressAdd();
-
                 try
                 {
                     if (Directory.Exists(v_url))
@@ -291,7 +286,6 @@ __________         __  .__      ____   ____      .__  .__    .___       __
 
             foreach (var v_url in p_Lines)
             {
-                //ProgressAdd();
                 HttpWebResponse response = null;
 
                 try
@@ -308,7 +302,7 @@ __________         __  .__      ____   ____      .__  .__    .___       __
                         ConsoleLog("[WEB] OK: " + v_url);
                     }
                 }
-                catch /*(WebException ex)*/
+                catch 
                 {
                     /* A WebException will be thrown if the status of the response is not `200 OK` */
                     using (StreamWriter v_ArquivosErrados = new StreamWriter(GlobalVar.v_Name_Err, true))
@@ -426,20 +420,6 @@ __________         __  .__      ____   ____      .__  .__    .___       __
             }
         }
 
-        //public bool ProgressAdd(bool p_Finished = false)
-        //{
-        //    if (this.MainProgress.Value + GlobalVar.ExecPiece >= 100 || p_Finished)
-        //    {
-        //        this.MainProgress.Value = 100;
-        //        return true;
-        //    }
-        //    else
-        //    {
-        //        this.MainProgress.Value += GlobalVar.ExecPiece;
-        //        return false;
-        //    }
-        //}
-
         private void rb_Varredura_CheckedChanged(object sender, EventArgs e)
         {
             this.tb_DiretorioPai.Enabled = (bool)(this.rb_Varredura.Checked);
@@ -481,8 +461,6 @@ __________         __  .__      ____   ____      .__  .__    .___       __
 
         public void ConsoleLog(string p_Message = "Action executed.")
         {
-            //this.tb_Console.Text += p_Message;
-            //System.Diagnostics.Debug.WriteLine(p_Message);
             Console.WriteLine(p_Message);
         }
 
@@ -494,14 +472,6 @@ __________         __  .__      ____   ____      .__  .__    .___       __
 
         private void backgroundWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
-            //if (this.MainProgress.Value + GlobalVar.ExecPiece >= 100)
-            //{
-            //    this.MainProgress.Value = 100;
-            //}
-            //else
-            //{
-            //    this.MainProgress.Value += GlobalVar.ExecPiece;
-            //}
             this.MainProgress.Value = e.ProgressPercentage;
             this.labelProgress.Text = this.MainProgress.Value.ToString() + "%";
         }
