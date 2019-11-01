@@ -66,7 +66,7 @@
             this.tb_Urls.Multiline = true;
             this.tb_Urls.Name = "tb_Urls";
             this.tb_Urls.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_Urls.Size = new System.Drawing.Size(766, 260);
+            this.tb_Urls.Size = new System.Drawing.Size(845, 357);
             this.tb_Urls.TabIndex = 1;
             // 
             // gb_Options
@@ -88,7 +88,7 @@
             this.gb_Options.ForeColor = System.Drawing.Color.White;
             this.gb_Options.Location = new System.Drawing.Point(48, 58);
             this.gb_Options.Name = "gb_Options";
-            this.gb_Options.Size = new System.Drawing.Size(766, 110);
+            this.gb_Options.Size = new System.Drawing.Size(845, 110);
             this.gb_Options.TabIndex = 2;
             this.gb_Options.TabStop = false;
             this.gb_Options.Text = "Configurações";
@@ -99,7 +99,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.MainProgress.Location = new System.Drawing.Point(10, 94);
             this.MainProgress.Name = "MainProgress";
-            this.MainProgress.Size = new System.Drawing.Size(746, 10);
+            this.MainProgress.Size = new System.Drawing.Size(825, 10);
             this.MainProgress.TabIndex = 6;
             // 
             // SelectDirectoryButton
@@ -196,7 +196,7 @@
             this.RunButton.FlatAppearance.BorderSize = 0;
             this.RunButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RunButton.ForeColor = System.Drawing.Color.Transparent;
-            this.RunButton.Location = new System.Drawing.Point(685, 16);
+            this.RunButton.Location = new System.Drawing.Point(764, 16);
             this.RunButton.Name = "RunButton";
             this.RunButton.Size = new System.Drawing.Size(71, 72);
             this.RunButton.TabIndex = 0;
@@ -212,7 +212,7 @@
             this.labelProgress.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelProgress.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             this.labelProgress.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.labelProgress.Location = new System.Drawing.Point(711, 356);
+            this.labelProgress.Location = new System.Drawing.Point(790, 356);
             this.labelProgress.Name = "labelProgress";
             this.labelProgress.Size = new System.Drawing.Size(0, 18);
             this.labelProgress.TabIndex = 4;
@@ -243,7 +243,7 @@
             this.tb_DiretorioPai.Location = new System.Drawing.Point(487, 65);
             this.tb_DiretorioPai.Name = "tb_DiretorioPai";
             this.tb_DiretorioPai.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tb_DiretorioPai.Size = new System.Drawing.Size(186, 20);
+            this.tb_DiretorioPai.Size = new System.Drawing.Size(265, 20);
             this.tb_DiretorioPai.TabIndex = 1;
             this.tb_DiretorioPai.Visible = false;
             // 
@@ -306,7 +306,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Path_Validator.Properties.Resources.Network_Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(861, 501);
+            this.ClientSize = new System.Drawing.Size(940, 598);
             this.Controls.Add(this.Logo);
             this.Controls.Add(this.LogoLabel);
             this.Controls.Add(this.TitleLabel);
