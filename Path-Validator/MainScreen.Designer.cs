@@ -126,10 +126,10 @@
             this.rb_Arquivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rb_Arquivo.Location = new System.Drawing.Point(163, 37);
             this.rb_Arquivo.Name = "rb_Arquivo";
-            this.rb_Arquivo.Size = new System.Drawing.Size(273, 24);
+            this.rb_Arquivo.Size = new System.Drawing.Size(161, 24);
             this.rb_Arquivo.TabIndex = 1;
             this.rb_Arquivo.TabStop = true;
-            this.rb_Arquivo.Text = "Validação de diretórios de arquivos";
+            this.rb_Arquivo.Text = "Validate file folders";
             this.rb_Arquivo.UseVisualStyleBackColor = true;
             this.rb_Arquivo.CheckedChanged += new System.EventHandler(this.rb_Varredura_CheckedChanged);
             // 
@@ -139,9 +139,9 @@
             this.rb_Varredura.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rb_Varredura.Location = new System.Drawing.Point(442, 37);
             this.rb_Varredura.Name = "rb_Varredura";
-            this.rb_Varredura.Size = new System.Drawing.Size(225, 24);
+            this.rb_Varredura.Size = new System.Drawing.Size(242, 24);
             this.rb_Varredura.TabIndex = 1;
-            this.rb_Varredura.Text = "Varredura de (sub)diretórios";
+            this.rb_Varredura.Text = "Sweep folders and sub-folders";
             this.rb_Varredura.UseVisualStyleBackColor = true;
             this.rb_Varredura.CheckedChanged += new System.EventHandler(this.rb_Varredura_CheckedChanged);
             // 
@@ -151,9 +151,9 @@
             this.rb_WEB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rb_WEB.Location = new System.Drawing.Point(163, 63);
             this.rb_WEB.Name = "rb_WEB";
-            this.rb_WEB.Size = new System.Drawing.Size(242, 24);
+            this.rb_WEB.Size = new System.Drawing.Size(200, 24);
             this.rb_WEB.TabIndex = 1;
-            this.rb_WEB.Text = "Validação de links web (URLs)";
+            this.rb_WEB.Text = "Validate web links (URL)";
             this.rb_WEB.UseVisualStyleBackColor = true;
             this.rb_WEB.CheckedChanged += new System.EventHandler(this.rb_Varredura_CheckedChanged);
             // 
@@ -263,7 +263,7 @@
             // Logo
             // 
             this.Logo.BackColor = System.Drawing.Color.Transparent;
-            this.Logo.Image = global::Path_Validator.Properties.Resources.if_epc_1931213;
+            this.Logo.Image = global::Path_Validator.Properties.Resources.bonsai;
             this.Logo.Location = new System.Drawing.Point(48, 12);
             this.Logo.Name = "Logo";
             this.Logo.Size = new System.Drawing.Size(47, 40);
@@ -280,9 +280,9 @@
             this.LogoLabel.ForeColor = System.Drawing.Color.White;
             this.LogoLabel.Location = new System.Drawing.Point(101, 12);
             this.LogoLabel.Name = "LogoLabel";
-            this.LogoLabel.Size = new System.Drawing.Size(283, 40);
+            this.LogoLabel.Size = new System.Drawing.Size(359, 40);
             this.LogoLabel.TabIndex = 4;
-            this.LogoLabel.Text = "PATH VALIDATOR";
+            this.LogoLabel.Text = "Treeview Validator";
             // 
             // OpenFile
             // 
@@ -316,7 +316,7 @@
             this.MinimumSize = new System.Drawing.Size(871, 452);
             this.Name = "MainScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Path Validator by Denner Parreiras";
+            this.Text = "Treeview Validator by Denner Parreiras";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainScreen_FormClosing);
             this.Load += new System.EventHandler(this.MainScreen_Load);
             this.gb_Options.ResumeLayout(false);
