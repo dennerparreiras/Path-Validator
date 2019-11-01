@@ -263,7 +263,7 @@
             // Logo
             // 
             this.Logo.BackColor = System.Drawing.Color.Transparent;
-            this.Logo.Image = global::Path_Validator.Properties.Resources.if_epc_1931213;
+            this.Logo.Image = global::Path_Validator.Properties.Resources.bonsai;
             this.Logo.Location = new System.Drawing.Point(48, 12);
             this.Logo.Name = "Logo";
             this.Logo.Size = new System.Drawing.Size(47, 40);
@@ -280,9 +280,9 @@
             this.LogoLabel.ForeColor = System.Drawing.Color.White;
             this.LogoLabel.Location = new System.Drawing.Point(101, 12);
             this.LogoLabel.Name = "LogoLabel";
-            this.LogoLabel.Size = new System.Drawing.Size(283, 40);
+            this.LogoLabel.Size = new System.Drawing.Size(359, 40);
             this.LogoLabel.TabIndex = 4;
-            this.LogoLabel.Text = "PATH VALIDATOR";
+            this.LogoLabel.Text = "Treeview Validator";
             // 
             // OpenFile
             // 
