@@ -41,3 +41,14 @@ B:\Developer Area\Workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validat
 B:\Developer Area\Workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csproj.CoreCompileInputs.cache
 B:\Developer Area\Workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.exe
 B:\Developer Area\Workspace\Path-Validator\Path-Validator\obj\Debug\Path-Validator.pdb
+A:\Denner Parreiras (Backup)\Documentos\GitHub\Path-Validator\Path-Validator\bin\Debug\Path-Validator.exe.config
+A:\Denner Parreiras (Backup)\Documentos\GitHub\Path-Validator\Path-Validator\bin\Debug\Path-Validator.exe
+A:\Denner Parreiras (Backup)\Documentos\GitHub\Path-Validator\Path-Validator\bin\Debug\Path-Validator.pdb
+A:\Denner Parreiras (Backup)\Documentos\GitHub\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csprojAssemblyReference.cache
+A:\Denner Parreiras (Backup)\Documentos\GitHub\Path-Validator\Path-Validator\obj\Debug\Path_Validator.MainScreen.resources
+A:\Denner Parreiras (Backup)\Documentos\GitHub\Path-Validator\Path-Validator\obj\Debug\Path_Validator.Properties.Resources.resources
+A:\Denner Parreiras (Backup)\Documentos\GitHub\Path-Validator\Path-Validator\obj\Debug\Path_Validator.SplashScreen.resources
+A:\Denner Parreiras (Backup)\Documentos\GitHub\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csproj.GenerateResource.cache
+A:\Denner Parreiras (Backup)\Documentos\GitHub\Path-Validator\Path-Validator\obj\Debug\Path-Validator.csproj.CoreCompileInputs.cache
+A:\Denner Parreiras (Backup)\Documentos\GitHub\Path-Validator\Path-Validator\obj\Debug\Path-Validator.exe
+A:\Denner Parreiras (Backup)\Documentos\GitHub\Path-Validator\Path-Validator\obj\Debug\Path-Validator.pdb
