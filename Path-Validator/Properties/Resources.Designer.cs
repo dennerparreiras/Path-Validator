@@ -19,7 +19,7 @@ namespace Path_Validator.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -57,6 +57,16 @@ namespace Path_Validator.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _82a66c6b69a61564494a682e4fb0d704 {
+            get {
+                object obj = ResourceManager.GetObject("82a66c6b69a61564494a682e4fb0d704", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -106,6 +116,16 @@ namespace Path_Validator.Properties {
         internal static System.Drawing.Bitmap Denner_Parreiras___Logo {
             get {
                 object obj = ResourceManager.GetObject("Denner Parreiras - Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Denner_Parreiras___Logo_2020 {
+            get {
+                object obj = ResourceManager.GetObject("Denner Parreiras - Logo 2020", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -124,37 +124,43 @@
   <data name="abstract-wallpaper-images-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\abstract-wallpaper-images-5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="if_epc_1931213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_epc_1931213.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_floppy_285657" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_floppy_285657.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="if_Play_701486" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\if_Play_701486.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Denner Parreiras" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Denner Parreiras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="if_folder_299060" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_folder_299060.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="if_floppy_285657" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_floppy_285657.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="VG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Denner Parreiras - Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Denner Parreiras - Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="if_epc_1931213" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_epc_1931213.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Network Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Network Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="topo-fundo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\topo-fundo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\back.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="VG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\VG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="topo-fundo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\topo-fundo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Denner Parreiras - Logo 2020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Denner Parreiras - Logo 2020.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bonsai" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bonsai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Network Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Network Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_folder_299060" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_folder_299060.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="82a66c6b69a61564494a682e4fb0d704" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\82a66c6b69a61564494a682e4fb0d704.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

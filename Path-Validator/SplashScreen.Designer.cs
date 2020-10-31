@@ -30,22 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SplashScreen));
-            this.pb_loading = new System.Windows.Forms.PictureBox();
             this.SplahProgress = new System.Windows.Forms.ProgressBar();
             this.SplashClock = new System.Windows.Forms.Timer(this.components);
+            this.pb_loading = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_loading)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pb_loading
-            // 
-            this.pb_loading.BackColor = System.Drawing.Color.Transparent;
-            this.pb_loading.Image = global::Path_Validator.Properties.Resources.Denner_Parreiras___Logo;
-            this.pb_loading.Location = new System.Drawing.Point(31, 52);
-            this.pb_loading.Name = "pb_loading";
-            this.pb_loading.Size = new System.Drawing.Size(496, 225);
-            this.pb_loading.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb_loading.TabIndex = 0;
-            this.pb_loading.TabStop = false;
             // 
             // SplahProgress
             // 
@@ -60,12 +49,23 @@
             this.SplashClock.Enabled = true;
             this.SplashClock.Tick += new System.EventHandler(this.SplashClock_Tick);
             // 
+            // pb_loading
+            // 
+            this.pb_loading.BackColor = System.Drawing.Color.Transparent;
+            this.pb_loading.Image = global::Path_Validator.Properties.Resources.Denner_Parreiras___Logo_2020;
+            this.pb_loading.Location = new System.Drawing.Point(31, 52);
+            this.pb_loading.Name = "pb_loading";
+            this.pb_loading.Size = new System.Drawing.Size(496, 225);
+            this.pb_loading.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb_loading.TabIndex = 0;
+            this.pb_loading.TabStop = false;
+            // 
             // SplashScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.BackgroundImage = global::Path_Validator.Properties.Resources.back;
+            this.BackgroundImage = global::Path_Validator.Properties.Resources._82a66c6b69a61564494a682e4fb0d704;
             this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(562, 383);
             this.ControlBox = false;
@@ -83,9 +83,8 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pb_loading;
         private System.Windows.Forms.ProgressBar SplahProgress;
         private System.Windows.Forms.Timer SplashClock;
+        private System.Windows.Forms.PictureBox pb_loading;
     }
 }

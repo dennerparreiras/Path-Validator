@@ -134,6 +134,12 @@
   <ItemGroup>
     <None Include="Resources\bonsai.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Denner Parreiras - Logo 2020.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\82a66c6b69a61564494a682e4fb0d704.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
